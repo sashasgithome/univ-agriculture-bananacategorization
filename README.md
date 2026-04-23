@@ -10,6 +10,10 @@ This project tests an _image processing algorithm_ that categorizes banana image
 
 The image processing algorithm has one main feature: breaks down a given banana image into three color clusters (background, "yellow" skin, "brown" spots) and calculate the amount of pixels each. Ripeness is then determined depending on the percentage of brown spot pixels. 
 
+<p align="center">
+  <img src="documentation/example-output.png" width="300" alt="Banana Ripeness Categorization" />
+</p>
+
 The algorithm is the simplest possible version of banana ripeness detection, where a homogenous background is highly desired for maximum effectiveness (see examples in `documentation/project-paper.pdf`).
 
 <br>
